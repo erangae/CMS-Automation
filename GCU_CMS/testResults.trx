@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="19f57f84-427c-4693-a2bb-bafe5f9e9afa" name="Eranga_2@CXA0110 2016-07-22 22:17:23" runUser="CXA0110\Eranga_2" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="de292c8e-818b-4b60-85a6-0e2a432c92ca">
+    <Deployment userDeploymentRoot="C:\Users\Eranga_2\Documents\Visual Studio 2013\Projects\GCU_CMS\GCU_CMS" useDefaultDeploymentRoot="false" runDeploymentRoot="Eranga_2_CXA0110 2016-07-22 22_17_23" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-07-22T22:17:23.8249499+08:00" queuing="2016-07-22T22:17:24.4727721+08:00" start="2016-07-22T22:17:24.5509179+08:00" finish="2016-07-22T22:23:19.2442844+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>E3
+E4
+</StdOut>
+    </Output>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SMK05_VerifyGroupCreation" storage="bin\debug\gcu_cms.dll" id="68b5b025-ab0a-dc65-8a26-5ea5d132827e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="34bd5c77-91da-4847-95e6-4b246eed65c5" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK05_VerifyGroupCreation" />
+    </UnitTest>
+    <UnitTest name="SMK09_VerifyContentCreation_Image_DurationCountdown_Group" storage="bin\debug\gcu_cms.dll" id="59c2a718-f2fe-556d-f2f2-1f0d3d2b2041">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="3758578e-3ccf-4acb-aec2-8eec49b59f33" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK09_VerifyContentCreation_Image_DurationCountdown_Group" />
+    </UnitTest>
+    <UnitTest name="SMK07_VerifyContentCreation_Video_Free_Artist_Snap" storage="bin\debug\gcu_cms.dll" id="61ab9401-4ea1-9518-46e2-619e94a7a9c5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="ea419052-2868-4e10-8b13-7acb4aa2f253" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK07_VerifyContentCreation_Video_Free_Artist_Snap" />
+    </UnitTest>
+    <UnitTest name="SMK06_VerifyContentCreation_Image_FixedPrice_Artist" storage="bin\debug\gcu_cms.dll" id="817efe52-748b-8713-b9b4-3fac5f56d589">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="29848f04-6857-4127-88fe-741a70aa0b2a" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK06_VerifyContentCreation_Image_FixedPrice_Artist" />
+    </UnitTest>
+    <UnitTest name="SMK01_VerifyLoginAsSuperSuperAdmin" storage="bin\debug\gcu_cms.dll" id="53ceaf92-8b62-5bbd-6a1a-a5c23654ef7e">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="101d2c67-d2c8-4346-b584-3b77e3e5d394" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK01_VerifyLoginAsSuperSuperAdmin" />
+    </UnitTest>
+    <UnitTest name="SMK03_VerifyLoginAsNewCompanyAdmin" storage="bin\debug\gcu_cms.dll" id="079e549a-70e3-c2e4-8137-cf8e31989ac2">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="cf53e074-9b55-4053-9dc4-a48fb782e8bb" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK03_VerifyLoginAsNewCompanyAdmin" />
+    </UnitTest>
+    <UnitTest name="SMK02_VerifyCompanyCreationWithAdmin" storage="bin\debug\gcu_cms.dll" id="a8c0b43f-b1e5-2d62-37e8-2126aa370c33">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="bb7a3d1f-08e5-4195-b491-5fdf77c74de4" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK02_VerifyCompanyCreationWithAdmin" />
+    </UnitTest>
+    <UnitTest name="SMK04_VerifyArtistCreation" storage="bin\debug\gcu_cms.dll" id="43ea20fd-5738-28e5-5e68-9ae598efb8cd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="37cc3069-9664-4d1f-85c7-f1266554dcd0" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK04_VerifyArtistCreation" />
+    </UnitTest>
+    <UnitTest name="SMK08_VerifyContentCreation_Video_FixedCountdown_Artist_Preview" storage="bin\debug\gcu_cms.dll" id="c9e42ea5-56a8-a011-003b-616e75bde218">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Smoke" />
+      </TestCategory>
+      <Execution id="e55768c7-6748-4f79-8920-03f98b07af65" />
+      <TestMethod codeBase="C:/Users/Eranga_2/Documents/Visual Studio 2013/Projects/GCU_CMS/GCU_CMS/bin/Debug/GCU_CMS.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GCU_CMS.Scripts.SmokeTests, GCU_CMS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SMK08_VerifyContentCreation_Video_FixedCountdown_Artist_Preview" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="53ceaf92-8b62-5bbd-6a1a-a5c23654ef7e" executionId="101d2c67-d2c8-4346-b584-3b77e3e5d394" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8c0b43f-b1e5-2d62-37e8-2126aa370c33" executionId="bb7a3d1f-08e5-4195-b491-5fdf77c74de4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="079e549a-70e3-c2e4-8137-cf8e31989ac2" executionId="cf53e074-9b55-4053-9dc4-a48fb782e8bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43ea20fd-5738-28e5-5e68-9ae598efb8cd" executionId="37cc3069-9664-4d1f-85c7-f1266554dcd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68b5b025-ab0a-dc65-8a26-5ea5d132827e" executionId="34bd5c77-91da-4847-95e6-4b246eed65c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="817efe52-748b-8713-b9b4-3fac5f56d589" executionId="29848f04-6857-4127-88fe-741a70aa0b2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61ab9401-4ea1-9518-46e2-619e94a7a9c5" executionId="ea419052-2868-4e10-8b13-7acb4aa2f253" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9e42ea5-56a8-a011-003b-616e75bde218" executionId="e55768c7-6748-4f79-8920-03f98b07af65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59c2a718-f2fe-556d-f2f2-1f0d3d2b2041" executionId="3758578e-3ccf-4acb-aec2-8eec49b59f33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="101d2c67-d2c8-4346-b584-3b77e3e5d394" testId="53ceaf92-8b62-5bbd-6a1a-a5c23654ef7e" testName="SMK01_VerifyLoginAsSuperSuperAdmin" computerName="CXA0110" duration="00:00:06.6767149" startTime="2016-07-22T22:17:24.5821465+08:00" endTime="2016-07-22T22:17:48.2316109+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="101d2c67-d2c8-4346-b584-3b77e3e5d394">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb7a3d1f-08e5-4195-b491-5fdf77c74de4" testId="a8c0b43f-b1e5-2d62-37e8-2126aa370c33" testName="SMK02_VerifyCompanyCreationWithAdmin" computerName="CXA0110" duration="00:00:29.7401472" startTime="2016-07-22T22:17:48.2336127+08:00" endTime="2016-07-22T22:18:17.9627710+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb7a3d1f-08e5-4195-b491-5fdf77c74de4">
+      <Output>
+        <StdOut>7222217
+7222217
+A1
+A2
+A3
+A4
+A5
+7222217
+7222217</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cf53e074-9b55-4053-9dc4-a48fb782e8bb" testId="079e549a-70e3-c2e4-8137-cf8e31989ac2" testName="SMK03_VerifyLoginAsNewCompanyAdmin" computerName="CXA0110" duration="00:00:02.8894487" startTime="2016-07-22T22:18:17.9783744+08:00" endTime="2016-07-22T22:18:20.8594655+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf53e074-9b55-4053-9dc4-a48fb782e8bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="37cc3069-9664-4d1f-85c7-f1266554dcd0" testId="43ea20fd-5738-28e5-5e68-9ae598efb8cd" testName="SMK04_VerifyArtistCreation" computerName="CXA0110" duration="00:00:26.9072994" startTime="2016-07-22T22:18:20.8750915+08:00" endTime="2016-07-22T22:18:47.7730001+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37cc3069-9664-4d1f-85c7-f1266554dcd0">
+    </UnitTestResult>
+    <UnitTestResult executionId="34bd5c77-91da-4847-95e6-4b246eed65c5" testId="68b5b025-ab0a-dc65-8a26-5ea5d132827e" testName="SMK05_VerifyGroupCreation" computerName="CXA0110" duration="00:00:34.0755943" startTime="2016-07-22T22:18:47.7886241+08:00" endTime="2016-07-22T22:19:21.8559976+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34bd5c77-91da-4847-95e6-4b246eed65c5">
+    </UnitTestResult>
+    <UnitTestResult executionId="29848f04-6857-4127-88fe-741a70aa0b2a" testId="817efe52-748b-8713-b9b4-3fac5f56d589" testName="SMK06_VerifyContentCreation_Image_FixedPrice_Artist" computerName="CXA0110" duration="00:00:32.8366026" startTime="2016-07-22T22:19:21.8559976+08:00" endTime="2016-07-22T22:19:54.7015267+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29848f04-6857-4127-88fe-741a70aa0b2a">
+      <Output>
+        <StdOut>C:\Users\Eranga_2\Documents\Visual Studio 2013\Projects\GCU_CMS\GCU_CMS\Data\Image.au3
+22-07-2016
+OK</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea419052-2868-4e10-8b13-7acb4aa2f253" testId="61ab9401-4ea1-9518-46e2-619e94a7a9c5" testName="SMK07_VerifyContentCreation_Video_Free_Artist_Snap" computerName="CXA0110" duration="00:01:24.9399795" startTime="2016-07-22T22:19:54.7015267+08:00" endTime="2016-07-22T22:21:19.6511353+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea419052-2868-4e10-8b13-7acb4aa2f253">
+      <Output>
+        <StdOut>C:\Users\Eranga_2\Documents\Visual Studio 2013\Projects\GCU_CMS\GCU_CMS\Data\Video.au3
+22-07-2016
+OK</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e55768c7-6748-4f79-8920-03f98b07af65" testId="c9e42ea5-56a8-a011-003b-616e75bde218" testName="SMK08_VerifyContentCreation_Video_FixedCountdown_Artist_Preview" computerName="CXA0110" duration="00:01:28.9358133" startTime="2016-07-22T22:21:19.6511353+08:00" endTime="2016-07-22T22:22:48.6016364+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e55768c7-6748-4f79-8920-03f98b07af65">
+      <Output>
+        <StdOut>29-07-2016
+C:\Users\Eranga_2\Documents\Visual Studio 2013\Projects\GCU_CMS\GCU_CMS\Data\Video.au3
+22-07-2016
+OK</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3758578e-3ccf-4acb-aec2-8eec49b59f33" testId="59c2a718-f2fe-556d-f2f2-1f0d3d2b2041" testName="SMK09_VerifyContentCreation_Image_DurationCountdown_Group" computerName="CXA0110" duration="00:00:29.1366779" startTime="2016-07-22T22:22:48.6046385+08:00" endTime="2016-07-22T22:23:17.7389935+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3758578e-3ccf-4acb-aec2-8eec49b59f33">
+      <Output>
+        <StdOut>C:\Users\Eranga_2\Documents\Visual Studio 2013\Projects\GCU_CMS\GCU_CMS\Data\Image.au3
+22-07-2016
+OK
+7222217</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
