@@ -78,7 +78,9 @@
     <None Include="Data\Video.au3" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Screenshots\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Artist1.jpg" />
     <Content Include="Data\Artist2.jpg" />
